@@ -18,11 +18,11 @@ export default class News extends Component {
                         <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                             Home
                         </NavItem>
-                        <NavItem eventKey={2} componentClass={Link} href="/about"  to="/about">
-                            About
+                        <NavItem eventKey={2} componentClass={Link} href="/contact"  to="/contact">
+                            Contact Us
                         </NavItem>
-                        <NavItem eventKey={3} componentClass={Link} href="/news"  to="/news">
-                            Services
+                        <NavItem eventKey={3} componentClass={Link} href="/about"  to="/about">
+                            About
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>

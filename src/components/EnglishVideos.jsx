@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export default class News extends Component {
+export default class EnglishVideos extends Component {
     render() {
         return (
             <div>
-                NEWS PAGE
+                English Videos
             </div>
         )
     }

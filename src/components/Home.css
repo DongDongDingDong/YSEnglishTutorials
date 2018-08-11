@@ -57,7 +57,7 @@ html, body {
 }
 body {
   height: 100vh;
-  background:#151519;
+  background:#fcc0a9;
 }
 button {
   position: absolute;
@@ -68,7 +68,7 @@ button {
 
 button {
   background: none;
-  color: #ccc;
+  color: rgb(78, 76, 76);;
   width: 240px;
   height: 80px;
   border: 1px solid #338033;
@@ -183,6 +183,13 @@ button2:hover:after {
   transform: translateX(300px) skewX(-15deg);
   opacity: 1;
   transition: .7s;
+}
+
+h2 {
+  text-align: center 
+}
+p {
+  text-align: center 
 }
 /* .button:hover {
   background-color: #4CAF50; Green

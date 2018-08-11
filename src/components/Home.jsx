@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
@@ -17,33 +16,20 @@ export default class Home extends Component {
         return (
             <html>
                 <body>      
-                            {/* <h2>W</h2>
-                            <p>sex </p> */}
+                            <h2>Welcome students</h2>
+                            <p>The English Department has a pivotal role to play within the School, providing the means for students <br />
+                                      to reach an advanced level of proficiency in English, as a support subject <br />
+                                        or other departments, as well as to promote a greater sensitivity <br />
+                                 to the literary and cultural traditions of the language in a global context.</p>
+
                     <Link to="VideoTutorials">
-                        <div className="wrapper">
-                            <div className='btn'>
+                        <div class="">
+                            {/* <span class="tooltiptext"></span> */}
+                            <div class='btn'>
                                 <button type='button' id="buttonVideo">Video Tutorials</button>
                             </div>
                         </div>
                     </Link>
-
-                        {/* <Row className="show-grid text-center"> */}
-                            {/* <Col xs="12" sm="3" className="person-wrapper">
-                                <Image src="assets/demo2.jpg" circle className="profile-pic" />
-                                <h3>Frank</h3>
-                                <p>vearinvoia vav a dva vaw evaw ev aw v aerdg aer gae rg aref ae.</p>
-                            </Col>
-                            <Col xs="12" sm="3" className="person-wrapper">
-                                <Image src="assets/demo1.jpg" circle className="profile-pic" />
-                                <h3>Frank</h3>
-                                <p>vearinvoia vav a dva vaw evaw ev aw v aerdg aer gae rg aref ae.</p>
-                            </Col>
-                            <Col xs="12" sm="3" className="person-wrapper">
-                                <Image src="assets/demo3.jpg" circle className="profile-pic" />
-                                <h3>Frank</h3>
-                                <p>vearinvoia vav a dva vaw evaw ev aw v aerdg aer gae rg aref ae.</p>
-                            </Col> */}
-                        {/* </Row> */}
                 </body>
             </html>
         )
